@@ -1,35 +1,106 @@
 # first-repo: day-1
  Saredufy, SWPA Fellowship day-1 tasks
-<!-- My name is Rayis Shaik, Today's Date:20 Sep2024 -->
-<!-- Task1: Create a simple HTML file and display the text "Welcome to web development" -->
-<!-- Task2: add comment on top of html with my name and today date -->
-<!-- Task3: write complete html boiler plate using <!DOCTYPE html> <html> <head> <title <body> --> 
-<!-- Task4: Set the page title to "My first html page" and add meta tag UTF-8 encoding -->
-<!-- Task5: Inside a body add a div that contains p -->
-<!-- Task6: Use strong, em, and mark tags within a paragraph to emphasize some words -->
-<!-- Task7: Create hyperlink using <a> that links to https://www.google.com and add target="_blank" attribute -->
-<!-- Task8: Add an image using <img> tag and include both src and alt attributes -->
-<!-- Task9: Use all6 heading tags <h1> to <h6> to display the topic "Html headings" -->
-<!-- Task10: Write a short article using atleast2 <p> tags and structure it with appropriate headings -->
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
- <meta charset="UTF-8"><!-- Task4: UTF-8 encoding -->
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>My first html page</title><!-- Task4: Page Title -->
+    <title>My First HTML Page</title>
+    <meta charset="UTF-8">
 </head>
 <body>
- <h1>Introduction to Web Development</h1>
- <p>Web development is the process of creating and maintaining websites. It involves a range of tasks, from designing the visual layout of a site to writing the code that makes it functional.</p>
- <h2>Key Aspects of Web Development</h2>
- <p>There are several key aspects of web development, including front-end development, back-end development, and full-stack development. Front-end development focuses on the user interface and user experience, while back-end development focuses on the server-side logic and database integration.</p>
- <h3>Tools and Technologies</h3>
- <p>Web developers use a range of tools and technologies to build and maintain websites. These include programming languages like HTML, CSS, and JavaScript, as well as frameworks and libraries like React and Node.js.</p>
- <div>
- <p>This is a <strong>very important</strong> message. You should <em>definitely</em> read it. It's <mark>highlighted</mark> for your convenience.</p>
- <p>Visit <a href="https://www.google.com" target="_blank">Google</a> for more information.</p>
- <img src="https://picsum.photos/200/300" alt="Random Image">
- </div>
+
+    <!-- Task 2Y: Add a comment with your name and today's date -->
+    <!-- Name: Rayiz Shaik -->
+    <!-- Date: 23-04-2025-->
+
+    <!-- Task 1: Display the text "Welcome to Web Development" -->
+    <h1>Welcome to Web Development</h1>
+
+    <!-- Task 5: Div with a Paragraph -->
+    <div>
+        <p>Hello, welcome to learning HTML!</p>
+    </div>
+
+    <!-- Task 6: Use strong, em, and mark tags -->
+    <p>This is <strong>important</strong>, <em>italicized</em>, and <mark>highlighted</mark> text.</p>
+
+    <!-- Task 7: Hyperlink with target="_blank" -->
+    <a href="https://www.google.com" target="_blank">Visit Google</a>
+
+    <!-- Task 8: Image tag with src and alt attributes -->
+    <img src="image.jpg" alt="Description of image">
+
+    <!-- Task 9: Use all heading tags -->
+    <h1>HTML Headings</h1>
+    <h2>HTML Headings</h2>
+    <h3>HTML Headings</h3>
+    <h4>HTML Headings</h4>
+    <h5>HTML Headings</h5>
+    <h6>HTML Headings</h6>
+
+    <!-- Task 10: Write a short article -->
+    <h1>Understanding HTML</h1>
+    <p>HTML stands for HyperText Markup Language. It is used to structure web pages.</p>
+    <p>It includes elements like headings, paragraphs, images, and links.</p>
+
+    <!-- Task 11: Formatting Tags -->
+    <p><b>Bold</b> <i>Italic</i> <u>Underlined</u></p>
+
+    <!-- Task 12: Superscript and Subscript -->
+    <p>Water is written as H<sub>2</sub>O</p>
+    <p>Squared number is written as x<sup>2</sup></p>
+
+    <!-- Task 13: Internal Link -->
+    <a href="#section1">Go to Section 1</a>
+    <h2 id="section1">Section 1</h2>
+    <p>Welcome to section 1.</p>
+
+    <!-- Task 14: Navigation Links -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Task 15: Image with width and height attributes -->
+    <img src="image.jpg" width="300" height="200">
+
+    <!-- Task 16: Image with a caption -->
+    <figure>
+        <img src="local-image.jpg" alt="A beautiful scene">
+        <figcaption>A beautiful scene description</figcaption>
+    </figure>
+
+    <!-- Task 17: Unordered List -->
+    <h2>Unordered List - Favorite Foods</h2>
+    <ul>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Pasta</li>
+        <li>Ice Cream</li>
+        <li>Sushi</li>
+    </ul>
+
+    <!-- Task 18: Ordered List -->
+    <h2>Ordered List - Making Tea</h2>
+    <ol>
+        <li>Boil water.</li>
+        <li>Steep tea.</li>
+        <li>Strain tea.</li>
+        <li>Serve and enjoy.</li>
+    </ol>
+
+    <!-- Task 19: Definition List -->
+    <h2>Definition List - HTML Tags</h2>
+    <dl>
+        <dt>p</dt>
+        <dd>Defines a paragraph.</dd>
+
+        <dt>a</dt>
+        <dd>Creates a hyperlink.</dd>
+
+        <dt>img</dt>
+        <dd>Embeds an image.</dd>
+    </dl>
+
 </body>
 </html>
