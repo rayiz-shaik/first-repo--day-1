@@ -1,7 +1,6 @@
 # first-repo: 
 
 DAY-1
- Saredufy, SWPA Fellowship day-1 tasks
 <!DOCTYPE html>
 <html>
 <head>
